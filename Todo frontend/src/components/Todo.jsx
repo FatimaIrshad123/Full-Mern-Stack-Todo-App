@@ -1,6 +1,5 @@
-import { RecoilRoot, useRecoilValue, useRecoilValueLoadable, useSetRecoilState } from 'recoil'
+import { useRecoilValueLoadable } from 'recoil'
 import { todoAtomFamily } from '../store/Atom'
-// import UpdateTodo from './UpdatedTodo'
 import { useState } from 'react'
 
 
